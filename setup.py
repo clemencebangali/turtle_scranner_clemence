@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+          'spawn_target = turtle_scranner_clemence.spawn_target:main',
+          'turtle_scanner_node = turtle_scranner_clemence.turtle_scanner_node:main', 
         ],
     },
 )
